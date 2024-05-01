@@ -32,6 +32,10 @@
   color: #61dafb;
 }
 
+.authorization-wrapper {
+  background-image: url("https://s3-alpha-sig.figma.com/img/9ce7/4b4a/d464939b87fe3c001458aba3aa34ff8e?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gMkRIfGkNOAkOH-utux540fbDL6f0fc1DO0~2S~hpjTqo~Nt5o534OP1XqsOnslRKzo39PQ7iBn2J5boGO~QGq8Lm914oGOoIbSm3PKslOaoiUzl8O928uNLtIhBuNSuaQyS1T4MKCIQj1eMhcyHd8Q-7WAmTUdvJBncY1a5P8SKsUvHKo57apua3qKwMv54KHA~7AhI6EtCxqG9yCYokJhQesavwX9dDXJV94dSfquqyuqnA8LgwFwwkysf9mTKLTaexM8BQP6jS5-P9bVRwP9Q3EmukyZXpuetMSvGihVrpiHVof1-iqsubpagqnktk2VD~ASG32A3XgRF8ZBqRg__");
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
