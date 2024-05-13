@@ -16,7 +16,7 @@ function Authorization() {
           paddingBottom: "2%",
         }}
       >
-        <div className="w-0">
+        <div style={{ width: "500px" }}>
           <p className="text-lg">En</p>
         </div>
 
@@ -26,13 +26,13 @@ function Authorization() {
             "https://s3-alpha-sig.figma.com/img/ea58/f75b/3e9abb17fc2a5ae567f590ec48b9b525?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=G8HWuqXZe2C1BusOHzy5yu2ArfLXU2ViTrvHhmf-TZOQ223L1rbgLFNrHGINiikuG4OjIzoroR3lDhaTdNQMOSbr4~Ifln5~tkmqeZ7F9GurzpAwKvuQjiwJZzmFcrymKoSPJW9RQxZv2Cf5jcZnnNBpkK-jN4j86oWkTCDJFntUauS1sT9nXUuSOGWNcErYht1PdTm6wq~QMdcVDYB87GYOnYiMcV-n-lsE4~rA0kMcS5nhOsCIBdmyabpY9rhlbbFCABEw1y0zFBKfGPsD00n62~3jkV0mty3DmVdwuqfm6Be4Biyyk8DWvLgFaTLaQEWcZXuqyk9~bFo9Ipo~Vw__"
           }
         />
-        <div className="w-0">
-          <p className="text-lg">Logbook</p>
+        <div style={{ width: "500px" }}>
+          <p className="text-lg text-right w-full">Logbook</p>
         </div>
       </div>
       <div
         style={{
-          paddingTop: "7%",
+          paddingTop: "10%",
         }}
         className="w-full flex justify-center"
       >

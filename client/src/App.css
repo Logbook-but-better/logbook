@@ -44,3 +44,17 @@
     transform: rotate(360deg);
   }
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* .reg-drawer::part(body) {
+  padding-left: 16px;
+  padding-right: 16px;
+} */
