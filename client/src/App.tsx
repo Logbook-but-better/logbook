@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Authorization from "./pages/Auth";
 import Main from "./pages/Main";
+import Hometask from "./pages/Hometask";
 
 setBasePath(
   "https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/"
@@ -22,6 +23,7 @@ function App() {
     <div>
       <Routes>
         <Route path="auth" element={<Authorization />} />
+        <Route path="hometask" element={<Hometask />} />
         <Route path="" element={<Main userData={userData} />} />
         <Route
           path="*"
